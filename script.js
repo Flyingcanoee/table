@@ -1,6 +1,6 @@
 function createArray() {
     let arr = [];
-    for (i = 0; i < 30; i++) {
+    for (i = 0; i < 1000; i++) {
         arr.push({
             Index: Math.floor(Math.random() * 1000),
             Name: "Product-" + i,
